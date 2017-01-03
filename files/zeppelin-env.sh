@@ -11,3 +11,5 @@ export ZEPPELIN_MEM=-Xmx1024m
 export ZEPPELIN_PORT=${PORT}
 export PYTHONPATH="${SPARK_HOME}/python:${SPARK_HOME}/python/lib/py4j-0.9-src.zip"
 
+echo "settings: master: $MASTER port: $ZEPPELIN_PORT"
+
