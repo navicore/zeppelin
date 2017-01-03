@@ -1,4 +1,4 @@
-FROM navicore/spark:1.6.2
+FROM navicore/spark:1.6.2a
 
 ENV ZEPPELIN_VER  0.6.2
 
